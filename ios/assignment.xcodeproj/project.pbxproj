@@ -9,32 +9,40 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-assignment.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		14AA76DE15244EF1B94453AB /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 077679D7995B4582A63AC3E0 /* OpenSans-SemiBold.ttf */; };
+		1774A430CAEC4AC5BF315A54 /* Merriweather_36pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2337B04B09456C86488AEE /* Merriweather_36pt-SemiBold.ttf */; };
+		1B5DC23E73EE43B69E1078CD /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C06821105D004F5DA44F1448 /* OpenSans-Regular.ttf */; };
+		3C6AD7EE48994428B1C611B9 /* Merriweather_36pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1596C9642E7B457D940955EC /* Merriweather_36pt-Medium.ttf */; };
+		3C82C7E2CCC34E23A46EF028 /* Merriweather_36pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33700CD80094A6DBFD173A1 /* Merriweather_36pt-Bold.ttf */; };
+		42B990BFD59E45B782280040 /* index.ts in Resources */ = {isa = PBXBuildFile; fileRef = 0DE5A9691D63450B8D0E2F39 /* index.ts */; };
+		51501CED823E415EB85724DA /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC8DA96C2317413C88A1BCE0 /* OpenSans-Bold.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CB9B44BF2AFE2E6052460C32 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		F62DCF0EA6EE4AFA90989F42 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69FD81986634E7E834EBA8C /* OpenSans-Medium.ttf */; };
+		F80801DF7B5D48818D422182 /* Merriweather_36pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A918DB510514A2CBF0D7393 /* Merriweather_36pt-Regular.ttf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = assignment;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077679D7995B4582A63AC3E0 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		0DE5A9691D63450B8D0E2F39 /* index.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = index.ts; path = ../src/assets/fonts/index.ts; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = assignment/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = assignment/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = assignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1596C9642E7B457D940955EC /* Merriweather_36pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather_36pt-Medium.ttf"; path = "../src/assets/fonts/Merriweather_36pt-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assignment.debug.xcconfig"; path = "Target Support Files/Pods-assignment/Pods-assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assignment.release.xcconfig"; path = "Target Support Files/Pods-assignment/Pods-assignment.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A918DB510514A2CBF0D7393 /* Merriweather_36pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather_36pt-Regular.ttf"; path = "../src/assets/fonts/Merriweather_36pt-Regular.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = assignment/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = assignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C06821105D004F5DA44F1448 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		C69FD81986634E7E834EBA8C /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../src/assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		D33700CD80094A6DBFD173A1 /* Merriweather_36pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather_36pt-Bold.ttf"; path = "../src/assets/fonts/Merriweather_36pt-Bold.ttf"; sourceTree = "<group>"; };
+		EC8DA96C2317413C88A1BCE0 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE2337B04B09456C86488AEE /* Merriweather_36pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather_36pt-SemiBold.ttf"; path = "../src/assets/fonts/Merriweather_36pt-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,12 +57,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
+		0783124423804C1B9E486478 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
+				D33700CD80094A6DBFD173A1 /* Merriweather_36pt-Bold.ttf */,
+				1596C9642E7B457D940955EC /* Merriweather_36pt-Medium.ttf */,
+				6A918DB510514A2CBF0D7393 /* Merriweather_36pt-Regular.ttf */,
+				EE2337B04B09456C86488AEE /* Merriweather_36pt-SemiBold.ttf */,
+				EC8DA96C2317413C88A1BCE0 /* OpenSans-Bold.ttf */,
+				C69FD81986634E7E834EBA8C /* OpenSans-Medium.ttf */,
+				C06821105D004F5DA44F1448 /* OpenSans-Regular.ttf */,
+				077679D7995B4582A63AC3E0 /* OpenSans-SemiBold.ttf */,
+				0DE5A9691D63450B8D0E2F39 /* index.ts */,
 			);
-			name = "Supporting Files";
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* assignment */ = {
@@ -93,6 +110,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0783124423804C1B9E486478 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -172,19 +190,22 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CB9B44BF2AFE2E6052460C32 /* PrivacyInfo.xcprivacy in Resources */,
+				3C82C7E2CCC34E23A46EF028 /* Merriweather_36pt-Bold.ttf in Resources */,
+				3C6AD7EE48994428B1C611B9 /* Merriweather_36pt-Medium.ttf in Resources */,
+				F80801DF7B5D48818D422182 /* Merriweather_36pt-Regular.ttf in Resources */,
+				1774A430CAEC4AC5BF315A54 /* Merriweather_36pt-SemiBold.ttf in Resources */,
+				51501CED823E415EB85724DA /* OpenSans-Bold.ttf in Resources */,
+				F62DCF0EA6EE4AFA90989F42 /* OpenSans-Medium.ttf in Resources */,
+				1B5DC23E73EE43B69E1078CD /* OpenSans-Regular.ttf in Resources */,
+				14AA76DE15244EF1B94453AB /* OpenSans-SemiBold.ttf in Resources */,
+				42B990BFD59E45B782280040 /* index.ts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,14 +296,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* assignment */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
@@ -408,7 +421,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -473,7 +493,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

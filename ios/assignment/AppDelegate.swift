@@ -14,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
   ) -> Bool {
+    for familyName in UIFont.familyNames {
+      print("Family name: \(familyName)")
+      for fontName in UIFont.fontNames(forFamilyName: familyName) {
+        print("--Font name: \(fontName)")
+      }
+    }   
     let delegate = ReactNativeDelegate()
     let factory = RCTReactNativeFactory(delegate: delegate)
     delegate.dependencyProvider = RCTAppDependencyProvider()
